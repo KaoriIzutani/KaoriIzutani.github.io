@@ -1,0 +1,36 @@
+h1 {
+		font-family: 'Baloo', serif;
+		font-size: 48px;
+		}
+h4 {
+		font-family: 'Baloo', serif;
+		font-size: 32px;
+		width: 200px;
+		} 
+	
+button {
+	position: relative;
+	margin-top: 50px;
+	}	
+
+div.menu  {
+	height: 300px;
+	width: 200px;
+}
+div.footer::after{
+	box-sizing: border-box;
+	width: 50%;
+	border: 5px solid green;
+	float: left;
+	transition: width .3s;
+}
+
+div.footer:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+	
+
+
+	
+
