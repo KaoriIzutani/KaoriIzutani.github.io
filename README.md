@@ -1,5 +1,5 @@
-# KI Portfolio
-# Blackjack Game
+
+# Instructions for the Blackjack Game
 > A backend app that allows you to play a game of Blackjack, just like the casinos in Las Vegas.
 
 ## Table of contents
@@ -13,7 +13,7 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+The purpose of the project is to learn the C# backend language and use it in a real life scenario. 
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
