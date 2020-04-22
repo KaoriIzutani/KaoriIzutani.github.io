@@ -20,11 +20,10 @@ The purpose of the project is to learn the C# backend language and use it in a r
 
 ## Technologies
 * Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Requirements: Visual Studio (2018 or above)
+
 
 ## Code Examples
 Show examples of usage:
@@ -41,7 +40,7 @@ To-do list:
 * Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _No longer continued_ and why?
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
