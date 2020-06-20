@@ -146,14 +146,13 @@ section {
 	width: 100%;
 	position: fixed;
 	z-index: 100;
-	
 }
 
 /*=======================================
   HOME SECTION STYLES
   =======================================*/
 #home {
-	background: url(../images/planets.jpg) no-repeat 50% 50%;
+	background: url("../img/thumb/planets.jpg") transparent no-repeat 50% 50%;
 	/*This means not to repeat the background image. If the 
 	screen is large enough to fit the image more than once, 
 	don't repeat it (otherwise, it looks sloppy)*/
@@ -162,9 +161,7 @@ section {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	width: 100%;
 	display: block;
-	height: auto;
 	padding-top: 350px; /* This is spacer before the Main title Logo */
 	padding-bottom: 500px; /* This is spacer after the Main title Logo */
 	color: #fff;

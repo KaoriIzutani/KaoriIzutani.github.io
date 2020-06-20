@@ -2071,7 +2071,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
   background-color: #34ce57;
-  text-shadow: -1px 1px 0 black
+  text-shadow: -1px 1px 0 black36
 }
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before {
