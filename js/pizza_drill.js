@@ -11,8 +11,9 @@ var sizeArray = document.getElementsByClassName("size");
 
 for (var i = 0; i < sizeArray.length; i++) {
 	if(sizeArray[i].checked) { 
-	/*This condition will check each item in the iteration to see if that particular item has been checked or not. 
-	Any items that our users select will be denoted with the "checked" value.*/
+	/*This condition will check each item in the iteration to see if that particular item has 
+	been checked or not. Any items that our users select will be denoted with the "checked" 
+	value.*/
 		var selectedSize = sizeArray[i].value;		
 		text1 = text1+selectedSize+"<br>";
 	};
@@ -37,7 +38,9 @@ if (selectedSize === "Personal Pizza") {
 		runningTotal = sizeTotal;
 		getMeat(runningTotal,text1,text2);
 };		
-//Make sure you're closing your functions. If you don't close them, it can cause problems with the other functions you made. You can tell if you didn't close them by highlighting the opening curly bracket. If it doesn't turn red, you didn't close it properly. 
+/*Make sure you're closing your functions. If you don't close them, it can cause problems with 
+the other functions you made. You can tell if you didn't close them by highlighting the opening
+ curly bracket. If it doesn't turn red, you didn't close it properly.*/
 		 function getMeat(runningTotal,text1,text2) {
 			var meatTotal = 0;
 			var selectedMeat = []; 
